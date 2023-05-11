@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(images/createbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 25px;
+    background-color: #80ad4b;
+   color: #e81e1e;
+   text-shadow: 1px 1px black;
+}
+.header .logo img{
+    position: absolute;
+    left: 12%;
+    width: 90px;
+    height: 90px;
+    top: 5%; 
+}
+.bodys{
+    border-radius: 5%;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #edebeb;
+    position: absolute;
+    top: 25%;
+    width: 25%;
+    height: 70%;
+    left: 35%;
+}
+.bodys .top{
+    position: absolute;
+    left: 10%;
+    top: 4%;
+   
+}
+input.fname{
+    width: 43%;
+    margin-left: 5%;
+    margin-top: 17%;
+    padding: 20px 2px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input.lname{
+    width: 43%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 20px 2px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input.id{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 20px 2px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input.pw{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    padding: 20px 2px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-bottom: 1%;
+}
+.bd{
+    position: absolute;
+    top: 271px;
+    left: 7%;
+    font-size: 15px;
+    font-weight: lighter;
+    font-weight: 900;
+}
+select.months{
+    margin-top: 10%;
+    margin-left: 7%;
+    width: 25%;
+    padding: 10px 0px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+select.days{
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 25%;
+    padding: 10px 0px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+input.year{
+    margin-top: 10%;
+    margin-left: 0%;
+    width: 25%;
+    padding: 10px 2px;
+      display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-bottom: 1%;
+    margin-right: 2%;
+}
+.gender h2{
+  position: absolute;
+  top: 73%;
+  left: 35%;
+  font-size: large;
+}
+.gender{
+  margin-top: 7%;
+  position: absolute;
+ 
+}
+
+

@@ -1,0 +1,96 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}   
+body{
+    background-image: url(images/svccbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    font-size: 25px;
+    background-color: #80ad4b;
+   color: #e81e1e;
+   text-shadow: 1px 1px black;
+}
+.header .logo img{
+    position: absolute;
+    left: 12%;
+    width: 90px;
+    height: 90px;
+    top: 5%;   
+}
+.bodys{
+    border-radius: 5%;
+    box-sizing: border-box;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: 26%;
+    background-color: #edebeb;
+    margin: 1%;
+    padding: 0;
+    width: 25%;
+    height: 55%;
+    align-items: center;
+    justify-content: center;
+}
+input[type=text]{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: medium;
+}
+input[type=password]{
+    width: 100%;
+    padding: 20px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: medium;
+    font-size: large;
+    
+}
+input.login{
+    cursor: pointer;
+    background-color: #004aad;
+    width: 100%;
+    padding: 20px 40px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+    color: white;
+}
+.button{
+    cursor: pointer;
+    background-color: #18ad00;
+    width: 100%;
+    padding: 20px 40px;
+    margin: 8px 0;
+     display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+form input.login{
+    font-size: 20px;
+}
+form .button{
+    font-size: 20px;
+}
